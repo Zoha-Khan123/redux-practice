@@ -15,7 +15,7 @@ const persistConfig = {
   
 
   //============ For Combine Dispatch ================
-const rootReducer = combineReducers({
+const rootReducer:any = combineReducers({
     bank:bankTransition,
     counter:counter,
     cart:cart,
